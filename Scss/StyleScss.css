@@ -1,0 +1,26 @@
+.text {
+  color: red;
+  font-size: 25px;
+}
+
+.text {
+  color: red;
+  font-size: 25px;
+  padding: 0px 200px 0px 200px;
+}
+
+.container_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+
+.carusel_card {
+  height: 500px;
+}/*# sourceMappingURL=StyleScss.css.map */
