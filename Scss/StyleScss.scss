@@ -1,11 +1,11 @@
 $color_red:red;
 $color_blur: rgb(17, 0, 255);
 $font:25px;
-
+$Roboto_Mono:'Island Moments', cursive;
 .text{
 color:$color_red;
 font-size: $font;
-
+font-family: 'Roboto Mono', monospace;
 }
 .text{
     color: $color_red;
@@ -30,3 +30,34 @@ margin-bottom: 100px;
     height: 500px;
     
 }
+.container__card_1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  
+  }
+  .card_:hover{
+    cursor: pointer;
+    background-color: aqua;
+    border: 1px solid yellow;
+    border-radius: 30px;
+    box-shadow: 1px 4px 5px 3px black;
+  }
+  // .card_:active{
+  //   cursor: pointer;
+  //   background-color: aqua;
+  //   border: 1px solid yellow;
+  // }
+@media only screen and( max-width: 600px) {
+    .container__card_1 {
+      display: flex;
+      align-items: center;
+      background-color: black;
+      color: white;
+    }
+    .text {
+      color: white;
+    }
+}
+
